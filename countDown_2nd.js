@@ -20,6 +20,7 @@
 		_months = parseInt(countDown.endTime[4],10);
 		_years = parseInt(countDown.endTime[5],10);
 		
+		
 		//缓存initial
 		nowTime = new Date();
 		endTime = new Date(countDown.endTime);
